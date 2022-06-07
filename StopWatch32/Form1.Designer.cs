@@ -28,20 +28,37 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label1.Font = new System.Drawing.Font("맑은 고딕", 30F);
+            this.label1.Location = new System.Drawing.Point(109, 183);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(263, 81);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "chaeeun";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1112, 553);
+            this.ClientSize = new System.Drawing.Size(516, 536);
+            this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "나만의 스톱워치";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Label label1;
     }
 }
 
