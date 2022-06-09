@@ -45,10 +45,10 @@ namespace StopWatch32
         {
             lblStatus.Text += "+";
             tbStatus.Text += "+";
-            if (timer1.Enabled == false)
-            {
-                timer1.Enabled = true;
-            }
+           // if (timer1.Enabled == false)
+           // {
+            //    timer1.Enabled = true;
+           // }
 
 
         }
@@ -57,7 +57,7 @@ namespace StopWatch32
             elapsedTime++;
             lblStatus.Text = elapsedTime + " 초 경과";
             tbStatus.Text = elapsedTime + " 초 경과";
-            toolStripProgressBar1 value = elapsedTime;
+            //toolStripProgressBar1 value = elapsedTime;
 
 
 
